@@ -19,7 +19,8 @@
   height: 150px;
   border-radius: 100%;
   margin-bottom: 20px;
-  border: 5px solid white; /* Border around the profile image */
+  border: 5px solid white;
+  /* Border around the profile image */
 }
 
 h1 {
@@ -30,12 +31,18 @@ h1 {
 
 h1 span {
   background: linear-gradient(45deg, #ff00ff, #ff6600); /* Gradient text */
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
   color: transparent; /* This makes the gradient fill the text */
 }
 
 p {
-  font-size: 16px;
+  font-size: 24px;
   margin-bottom: 40px;
   color: rgba(255, 255, 255, 0.7); /* Slightly faded text */
 }
@@ -79,7 +86,7 @@ p {
 }
 
 .btn-resume:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #111111; /* Inverse the colors on hover */
 }
 

@@ -8,11 +8,13 @@ function Hero() {
       <div className="hero-content">
         <img src={Hill} alt="Profile" className="hero-image" />
         <h1>
-          I'm <span>Alex Bennett</span>, frontend developer based in USA.
+          I'm <span>Hillary Onyango</span>, frontend developer based in Nairobi,
+          Kenya.
         </h1>
         <p>
-          I am a frontend developer from California, USA with 10 years of
-          experience in multiple companies like Microsoft, Tesla, and Apple.
+          I am a frontend developer from Nairobi, Kenya with 1.5 years of
+          experience in multiple companies like Safaricom, Onesha, and Savannah
+          Informatics.
         </p>
         <div className="hero-buttons">
           <button className="btn-connect">Connect with me</button>
