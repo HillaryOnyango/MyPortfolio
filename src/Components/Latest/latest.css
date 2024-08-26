@@ -1,0 +1,49 @@
+.latest-work {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.latest-work-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.work-item {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.work-item:hover {
+  transform: scale(1.05);
+}
+
+.work-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.show-more-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.show-more-btn:hover {
+  background-color: white;
+  color: #1a1a1a;
+}

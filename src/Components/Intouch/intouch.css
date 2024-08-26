@@ -1,0 +1,83 @@
+.intouch {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 2rem;
+}
+
+.intouch-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.intouch-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.intouch-info {
+  flex: 1;
+}
+
+.info-title {
+  font-size: 2rem;
+  background: linear-gradient(to right, #a855f7, #ffa500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.info-text {
+  margin-bottom: 1rem;
+}
+
+.contact-details p {
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  background-color: #2a2a2a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.captcha {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.submit-btn {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #a855f7, #ffa500);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}

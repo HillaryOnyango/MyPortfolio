@@ -1,0 +1,98 @@
+/* navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #111111; /* Dark background */
+}
+
+.navbar img {
+  width: 80px; /* Adjust the logo size */
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-menu li::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ff00ff; /* Pink dot underlines the text */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -6px;
+  border-radius: 50%;
+  display: none; /* Initially hidden */
+}
+
+.nav-menu li:hover::after {
+  display: block; /* Show the dot on hover */
+}
+
+.nav-connect {
+  background: linear-gradient(
+    45deg,
+    #ff00ff,
+    #ff6600
+  ); /* Gradient background */
+  padding: 10px 20px;
+  border-radius: 50px; /* Rounded edges */
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.nav-connect:hover {
+  background: linear-gradient(
+    45deg,
+    #ff6600,
+    #ff00ff
+  ); /* Reverse gradient on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none; /* Hide menu on smaller screens */
+  }
+
+  .navbar img {
+    width: 60px; /* Smaller logo */
+  }
+
+  .nav-connect {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .nav-menu li {
+    margin: 0 10px;
+  }
+
+  .nav-connect {
+    padding: 8px 18px;
+  }
+}
