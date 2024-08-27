@@ -28,25 +28,25 @@ function About() {
             <div className="skill">
               <span>HTML & CSS</span>
               <div className="skill-bar">
-                <div className="skill-level" style={{ width: "80%" }}></div>
+                <div className="skill-level"></div>
               </div>
             </div>
             <div className="skill">
               <span>React JS</span>
               <div className="skill-bar">
-                <div className="skill-level" style={{ width: "90%" }}></div>
+                <div className="skill-level"></div>
               </div>
             </div>
             <div className="skill">
               <span>JavaScript</span>
               <div className="skill-bar">
-                <div className="skill-level" style={{ width: "85%" }}></div>
+                <div className="skill-level"></div>
               </div>
             </div>
             <div className="skill">
               <span>Next JS</span>
               <div className="skill-bar">
-                <div className="skill-level" style={{ width: "75%" }}></div>
+                <div className="skill-level"></div>
               </div>
             </div>
           </div>

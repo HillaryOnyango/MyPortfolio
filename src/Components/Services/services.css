@@ -23,7 +23,8 @@
 }
 
 .service-card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.05);
+  background-color: rgba(255, 0, 170, 0.521);
 }
 
 .service-id {
