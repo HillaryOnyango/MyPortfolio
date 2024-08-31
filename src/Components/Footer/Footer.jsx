@@ -6,10 +6,11 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h2 className="footer-logo">AleX</h2>
+          <h2 className="footer-logo">Hilla</h2>
           <p className="footer-description">
-            I am a frontend developer from USA with 10 years of experience in
-            companies like Microsoft, Tesla and Apple.
+            I am a frontend developer from Nairobi, Kenya with 1.5 years of
+            experience in multiple companies like Safaricom, Onesha, and
+            Savannah Informatics.
           </p>
         </div>
         <div className="footer-right">
@@ -21,7 +22,7 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <p className="footer-copyright">
-          © 2023 Alex Bennett. All rights reserved.
+          © 2024 Amolo Onyango Hillary. All rights reserved.
         </p>
         <nav className="footer-nav">
           <a href="#terms">Term of Services</a>

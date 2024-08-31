@@ -15,13 +15,13 @@ function Intouch() {
           </p>
           <div className="contact-details">
             <p>
-              <span className="icon">✉</span> greatstackdev@gmail.com
+              <span className="icon">✉</span> hillaryonyango19@gmail.com
             </p>
             <p>
-              <span className="icon">📞</span> +772-825-524
+              <span className="icon">📞</span> 07593-921-156
             </p>
             <p>
-              <span className="icon">📍</span> CA, United States
+              <span className="icon">📍</span> Nairobi, Kenya
             </p>
           </div>
         </div>
